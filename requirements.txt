@@ -1,0 +1,8 @@
+transformers==4.30.2
+ - The Hugging Face Transformers library, used for the zero-shot classification model (facebook/bart-large-mnli)
+pandas==2.0.3
+  - For loading and manipulating your dataset (CSV reading, DataFrame operations)
+streamlit==1.24.1
+  - to build the interactive web application UI
+yt-dlp==2025.09.22
+  - A YouTube downloader library forked from youtube-dl, used here only to search and fetch YouTube video IDS (no downloads)
