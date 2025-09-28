@@ -36,9 +36,24 @@ Follow these steps to set up and run **Time Capsule Radio** locally:
 
 ### 1. Clone the repository
 
-```bash
 git clone https://github.com/parkercolby/time-capsule-radio.git
 cd time-capsule-radio
+
+---
+##Dataset
+
+This project uses a Spotify tracks dataset containing audio features and metadata necessary for mood classification and playlist generation.
+  -File: dataset.csv/dataset.csv
+  Description: The dataset includes song attribrutes such as valence, energy, danceability, artist names,      popularity, and explicit content flags.
+
+  - Source https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset
+
+  - Instructions:
+    - Download the dataset from Kaggle using the above link
+    - Extract the dataset.csv file
+    - Place the extracted dataset.csv inside the dataset.csv/ floder in this project directory so that the         path is dataset.csv/dataset.csv
+
+Make sure that the dataset file is present before running the app, as it is required to generate mood-based playlists.
 
 ---
 
@@ -57,4 +72,6 @@ Please note that each library is licensed under its own terms. By using this pro
 ---
 
 You should install these dependencies separately (e.g., via pip) and respect their licenses.
+
+
 
