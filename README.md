@@ -27,3 +27,7 @@
   - dataset.csv
 - style.css #Custome styling for side panels and layout
 - requirements.txt #Python dependencies
+
+---
+
+##Setup Instructions
