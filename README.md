@@ -32,6 +32,14 @@
 
 ##Setup Instructions
 
+Follow these steps to set up and run **Time Capsule Radio** locally:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/parkercolby/time-capsule-radio.git
+cd time-capsule-radio
+
 ---
 
 ## Dependencies and Licenses
