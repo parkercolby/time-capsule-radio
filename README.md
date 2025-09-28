@@ -31,3 +31,22 @@
 ---
 
 ##Setup Instructions
+
+---
+
+## Dependencies and Licenses
+
+This project uses the following open-source libraries:
+
+| Library       | License           | Link                                           |
+|---------------|-------------------|------------------------------------------------|
+| transformers  | Apache 2.0        | https://github.com/huggingface/transformers/blob/main/LICENSE |
+| pandas        | BSD 3-Clause      | https://github.com/pandas-dev/pandas/blob/main/LICENSE |
+| yt_dlp        | MIT               | https://github.com/yt-dlp/yt-dlp/blob/master/LICENSE |
+
+Please note that each library is licensed under its own terms. By using this project, you agree to comply with the licenses of these dependencies.
+
+---
+
+You should install these dependencies separately (e.g., via pip) and respect their licenses.
+
